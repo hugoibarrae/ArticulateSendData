@@ -2,13 +2,13 @@ function ExecuteScript(strId)
 {
   switch (strId)
   {
-      case "6rbpwPWSiJf":
+      case "6e6ZjztDTEN":
         Script1();
         break;
-      case "6YGejN6tb1f":
+      case "5q8DLLla5hK":
         Script2();
         break;
-      case "5kWF4MnRuYy":
+      case "66f9aRgF2EA":
         Script3();
         break;
   }
@@ -36,8 +36,8 @@ WEB_APP_URL = "https://script.google.com/macros/s/AKfycbzV0wptABgskJa4njrMTxAGTQ
 storyline =
 {
  "date" : new Date().toJSON().slice(0,10), //STORE DATE
- "name" : player.GetVar("name"),
- "email" : player.GetVar("email"),
+ "name" : player.GetVar("nombre"),
+ "email" : player.GetVar("mail"),
  "message" : player.GetVar("message")
 }
 }
