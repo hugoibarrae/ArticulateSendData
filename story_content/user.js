@@ -2,13 +2,13 @@ function ExecuteScript(strId)
 {
   switch (strId)
   {
-      case "5nJA8gd6YfJ":
+      case "6MqRYSr9VDx":
         Script1();
         break;
-      case "6EUOlAIdZBd":
+      case "65kbkifffDR":
         Script2();
         break;
-      case "6Ob5f6gqn7y":
+      case "5wDO5Lsy4ED":
         Script3();
         break;
   }
@@ -27,6 +27,11 @@ function Script2()
 {
   var player = GetPlayer();
  
+//Get Cool Date
+var d = new Date();
+var o = {year:'numeric', month:'2-digit', day:'2-digit', hour:'2-digit', minute:'2-digit', second:'2-digit'};
+
+
 //PLACE YOUR WEB APP URL
 WEB_APP_URL = "https://script.google.com/macros/s/AKfycbzV0wptABgskJa4njrMTxAGTQLCjVg6VCkIevoHuaKlzCpSD6v1/exec";
  
@@ -35,7 +40,7 @@ WEB_APP_URL = "https://script.google.com/macros/s/AKfycbzV0wptABgskJa4njrMTxAGTQ
 // ATTENTION: Use a comma if you use multiple Storyline variables
 storyline =
 {
- "date" : new Date(),//STORE DATE
+ "date" : d.toLocaleDateString('en-US', o),//STORE DATE
  "name" : player.GetVar("nombre"),
  "email" : player.GetVar("edad"),
  "message" : player.GetVar("message")
