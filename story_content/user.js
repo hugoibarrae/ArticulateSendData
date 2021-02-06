@@ -2,13 +2,13 @@ function ExecuteScript(strId)
 {
   switch (strId)
   {
-      case "6e6ZjztDTEN":
+      case "5oAhPscQze4":
         Script1();
         break;
-      case "5q8DLLla5hK":
+      case "617OXYddGw4":
         Script2();
         break;
-      case "66f9aRgF2EA":
+      case "68tQ3iWlaGu":
         Script3();
         break;
   }
@@ -16,11 +16,10 @@ function ExecuteScript(strId)
 
 function Script1()
 {
-  var head = document.getElementsByTagName('head')[0];
-var script = document.createElement('script');
-script.src = '//code.jquery.com/jquery-1.11.0.min.js';
-script.type = 'text/javascript';
-head.appendChild(script)
+  var head = document.getElementsByTagName('head')[0]; 
+var script = document.createElement('script'); 
+script.src = '//code.jquery.com/jquery-1.11.0.min.js'; 
+script.type = 'text/javascript'; head.appendChild(script)
 }
 
 function Script2()
@@ -37,30 +36,32 @@ storyline =
 {
  "date" : new Date().toJSON().slice(0,10), //STORE DATE
  "name" : player.GetVar("nombre"),
- "email" : player.GetVar("mail"),
+ "email" : player.GetVar("edad"),
  "message" : player.GetVar("message")
 }
+Don't 
 }
 
 function Script3()
 {
-  //DELAY SO JQUERY LIBRARY IS LOADED
-setTimeout(function (){
- 
-//Export to Google
-$.ajax({
-url: WEB_APP_URL,
-type: "POST",
-data : storyline,
-success: function(data)
-{
-console.log(data);
-},
-error: function(err) {
-console.log('Error:', err);
-}
-});
-return false;
-}, 1000);
+  //DELAY SO JQUERY LIBRARY IS LOADED 
+setTimeout(function (){ 
+
+//Export to Google 
+$.ajax({ 
+url: WEB_APP_URL, 
+type: "POST", 
+data : storyline, 
+success: function(data) 
+{ 
+console.log(data); 
+}, 
+error: function(err) { 
+console.log('Error:', err); 
+} 
+}); 
+return false; 
+}, 
+1000);
 }
 
