@@ -2,13 +2,13 @@ function ExecuteScript(strId)
 {
   switch (strId)
   {
-      case "66TWeIa6Am0":
+      case "5YzPN4I3dNr":
         Script1();
         break;
-      case "6fh4cRaUV1L":
+      case "6PJ79FqGEBj":
         Script2();
         break;
-      case "6DrXjcpur6C":
+      case "5a4p0UrnZjN":
         Script3();
         break;
   }
@@ -35,7 +35,7 @@ WEB_APP_URL = "https://script.google.com/macros/s/AKfycbzV0wptABgskJa4njrMTxAGTQ
 // ATTENTION: Use a comma if you use multiple Storyline variables
 storyline =
 {
- "date" : new Date().toJSON().slice(0,10), //STORE DATE
+ "date" : new Date("2015-03-25T12:00:00").toJSON().slice(0,10), //STORE DATE
  "name" : player.GetVar("nombre"),
  "email" : player.GetVar("edad"),
  "message" : player.GetVar("message")
