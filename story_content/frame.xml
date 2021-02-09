@@ -13,7 +13,7 @@
         <options>
           <option name="title_enabled" value="true">
             <options>
-              <option name="title_text" value="Prueba1" />
+              <option name="title_text" value="testOscar" />
             </options>
           </option>
           <option name="logo_enabled" value="false">
@@ -33,9 +33,9 @@
               <listitem name="transcript" value="false" group="sidebar" />
             </listitems>
           </optionlist>
-          <option name="time_enabled" value="false">
+          <option name="time_enabled" value="true">
             <options>
-              <option name="time_format" value="" />
+              <option name="time_format" value="remaining" />
             </options>
           </option>
           <option name="video_enabled" value="false">
@@ -67,11 +67,19 @@
               <option name="font" value="Open Sans" />
             </options>
           </option>
+          <option name="settings" value="true" />
         </options>
       </optiongroup>
       <optiongroup name="bottombaroptions">
         <options>
           <option name="bottombar_enabled" value="true" />
+        </options>
+      </optiongroup>
+      <optiongroup name="buttonoptions">
+        <options>
+          <option name="next" value="icon" />
+          <option name="previous" value="icon" />
+          <option name="submit" value="icon" />
         </options>
       </optiongroup>
     </optiongroups>
@@ -1114,7 +1122,7 @@
     <string_table name="pxabnsnfns00001100101">
       <string id="more_info">Más información</string>
       <string id="bio">Biografía</string>
-      <string id="togglezoom">Alternar los modos de zoom</string>
+      <string id="togglezoom">Activar/Desactivar el zoom para llenar la pantalla</string>
       <string id="action">Acción</string>
       <string id="shortcut">Atajo</string>
       <string id="shortcuthelp">Listar los atajos de teclado</string>
@@ -1181,9 +1189,11 @@
   <nav_data>
     <outline>
       <links>
-        <slidelink slideid="_player.6Hh4cocrOnJ" displaytext="Escena sin título" expand="true" type="slide">
+        <slidelink slideid="_player.6fPO2Yvjvq2" displaytext="Escena sin título" expand="true" type="slide">
           <links>
-            <slidelink slideid="_player.6Hh4cocrOnJ.5cM0nS75WnV" displaytext="Diapositiva sin título" expand="false" type="slide" />
+            <slidelink slideid="_player.6fPO2Yvjvq2.6dZYWFdLVO3" displaytext="Diapositiva sin título" expand="false" type="slide" />
+            <slidelink slideid="_player.6fPO2Yvjvq2.63mmeRoFm8l" displaytext="Diapositiva sin título" expand="false" type="slide" />
+            <slidelink slideid="_player.6fPO2Yvjvq2.6V50wQZ6vbs" displaytext="Extraer de Examen" expand="false" type="slide" />
           </links>
         </slidelink>
       </links>
